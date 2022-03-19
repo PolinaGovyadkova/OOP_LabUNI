@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Wpf.App">
+            <summary>
+            Логика взаимодействия для App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Wpf.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Wpf.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Wpf.MainWindow">
+            <summary>
+            Логика взаимодействия для MainWindow.xaml
+            </summary>
+            <seealso cref="T:System.Windows.Window" />
+            <seealso cref="T:System.Windows.Markup.IComponentConnector" />
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:Wpf.MainWindow.listOfPeople">
+            <summary>
+            The list of people
+            </summary>
+        </member>
+        <member name="M:Wpf.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Wpf.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Wpf.MainWindow.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:Wpf.MainWindow.UpdateForPupils">
+            <summary>
+            Updates for pupils.
+            </summary>
+        </member>
+        <member name="M:Wpf.MainWindow.UpdateForStudents">
+            <summary>
+            Updates for students.
+            </summary>
+        </member>
+        <member name="M:Wpf.MainWindow.ReadFromFile_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the ReadFromFile control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.Box_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the SelectionChanged event of the Box control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.TextBox_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Handles the TextChanged event of the TextBox control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.TextChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the Button control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.Box_SelectionChanged_2(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the 2 event of the Box_SelectionChanged control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.Box_SelectionChanged_1(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the 1 event of the Box_SelectionChanged control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the 1 event of the Button_Click control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Wpf.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Wpf.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:Wpf.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:Wpf.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>

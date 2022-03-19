@@ -1,0 +1,22 @@
+﻿<Window x:Class="Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="290" Width="703">
+    <Grid>
+        <Button Content="Умножение на число" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="463,42,0,0" Height="36" Click="Button_Click" />
+        <ComboBox Name="List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Margin="210,55,0,0" Height="23" SelectionChanged="ComboBox_SelectionChanged">
+            <TextBlock>lg(x)</TextBlock>
+            <TextBlock>cos(x)</TextBlock>
+            <TextBlock>x^2</TextBlock>
+        </ComboBox>
+
+        <TextBox Name ="Upper" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="10,97,0,0" TextChanged="TextBox_TextChanged_1" />
+        <TextBox Name ="Lower" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="10,31,0,0" TextChanged="TextBox_TextChanged" />
+        <Button Content="Вычислить сумму" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="463,109,0,0" Height="40" Click="Button_Click_1" />
+        <TextBox Name ="Number" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="23,206,0,0" />
+    </Grid>
+</Window>

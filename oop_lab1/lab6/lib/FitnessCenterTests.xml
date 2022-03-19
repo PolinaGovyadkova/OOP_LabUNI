@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FitnessCenterTests</name>
+    </assembly>
+    <members>
+        <member name="T:FitnessCenter.Tests.TrainingTests">
+            <summary>
+            TrainingTests
+            </summary>
+        </member>
+        <member name="M:FitnessCenter.Tests.TrainingTests.AllExerciseTest">
+            <summary>
+            Alls exercise test.
+            </summary>
+        </member>
+        <member name="M:FitnessCenter.Tests.TrainingTests.PopularTypeOfExerciseTest">
+            <summary>
+            Populars type of exercise test.
+            </summary>
+        </member>
+        <member name="M:FitnessCenter.Tests.TrainingTests.TotalExerciseTest">
+            <summary>
+            Totals exercise test.
+            </summary>
+        </member>
+    </members>
+</doc>

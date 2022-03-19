@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>String</name>
+    </assembly>
+    <members>
+        <member name="T:String.Dictionary">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="F:String.Dictionary._number">
+            <summary>
+            Countries this instance.
+            </summary>
+            <value>
+            The number.
+            </value>
+        </member>
+        <member name="M:String.Dictionary.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:String.Dictionary"/> class.
+            </summary>
+            <param name="number">The number.</param>
+        </member>
+        <member name="M:String.Dictionary.CountriesWithCodes">
+            <summary>
+            Countrieses the with codes.
+            </summary>
+            <returns>Dictionary with countries and codes</returns>
+        </member>
+        <member name="T:String.CheckNumber">
+            <summary>
+            UserInfo
+            </summary>
+        </member>
+        <member name="F:String.CheckNumber._number">
+            <summary>
+            The number
+            </summary>
+        </member>
+        <member name="M:String.CheckNumber.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Number"/> class.
+            </summary>
+            <param name="number">The number.</param>
+        </member>
+        <member name="M:String.CheckNumber.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Number"/> class.
+            </summary>
+        </member>
+        <member name="M:String.CheckNumber.PhoneNumber(System.String)">
+            <summary>
+            Phones the number.
+            </summary>
+            <param name="phone">The phone.</param>
+            <returns>Array with codes and countries</returns>
+        </member>
+        <member name="M:String.CheckNumber.IsInfo(System.String)">
+            <summary>
+            Determines whether the specified text is information.
+            </summary>
+            <param name="text">The text.</param>
+            <returns>
+              <c>true</c> if the specified text is information; otherwise, <c>false</c>.
+            </returns>
+        </member>
+    </members>
+</doc>

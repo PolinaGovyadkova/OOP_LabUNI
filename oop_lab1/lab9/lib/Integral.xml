@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Integral</name>
+    </assembly>
+    <members>
+        <member name="T:Integral.IntegralCos">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralCos.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralCos"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralCos.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>
+            Returns a cos function
+            </returns>
+        </member>
+        <member name="T:Integral.IntegralLog">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralLog.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralLog"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralLog.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>
+            Returns a log function
+            </returns>
+        </member>
+        <member name="T:Integral.MainIntegral">
+            <summary>
+            MainIntegral
+            </summary>
+        </member>
+        <member name="F:Integral.MainIntegral._lower_limit">
+            <summary>
+            The lower limit
+            </summary>
+        </member>
+        <member name="F:Integral.MainIntegral._upper_limit">
+            <summary>
+            The upper limit
+            </summary>
+        </member>
+        <member name="M:Integral.MainIntegral.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.MainIntegral"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.MainIntegral.ConvertCos(System.String,System.String)">
+            <summary>
+            Converts the cos.
+            </summary>
+            <param name="new_lower_limit">The new lower limit.</param>
+            <param name="new_upper_limit">The new upper limit.</param>
+            <returns></returns>
+            <exception cref="T:Exeption.IntegralExeption">Ошибка</exception>
+        </member>
+        <member name="M:Integral.MainIntegral.ConvertLog(System.String,System.String)">
+            <summary>
+            Converts the log.
+            </summary>
+            <param name="new_lower_limit">The new lower limit.</param>
+            <param name="new_upper_limit">The new upper limit.</param>
+            <returns></returns>
+            <exception cref="T:Exeption.IntegralExeption">Ошибка</exception>
+        </member>
+        <member name="M:Integral.MainIntegral.ConvertQuad(System.String,System.String)">
+            <summary>
+            Converts the quad.
+            </summary>
+            <param name="new_lower_limit">The new lower limit.</param>
+            <param name="new_upper_limit">The new upper limit.</param>
+            <returns></returns>
+            <exception cref="T:Exeption.IntegralExeption">Ошибка</exception>
+        </member>
+        <member name="M:Integral.MainIntegral.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Integral.MainIntegral.Solve">
+            <summary>
+            Solves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Integral.MainIntegral.op_Addition(Integral.MainIntegral,Integral.MainIntegral)">
+            <summary>
+            Implements the operator +.
+            </summary>
+            <param name="integral">The integral.</param>
+            <param name="integral1">The integral1.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:Integral.MainIntegral.op_Multiply(System.Double,Integral.MainIntegral)">
+            <summary>
+            Implements the operator *.
+            </summary>
+            <param name="number">The number.</param>
+            <param name="integral">The integral.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="T:Integral.IntegralQuad">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralQuad.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralQuad"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralQuad.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>Returns a quadratic function</returns>
+        </member>
+    </members>
+</doc>

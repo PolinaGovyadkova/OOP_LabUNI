@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntegralTests</name>
+    </assembly>
+    <members>
+        <member name="T:Integral.Tests.MainIntegralTests">
+            <summary>
+            MainIntegralTests
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.ConvertLogTest1">
+            <summary>
+            Converts the log test1.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.ConvertLogTest">
+            <summary>
+            Converts the log test.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.ConvertLogTest2">
+            <summary>
+            Converts the log test2.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralLog">
+            <summary>
+            Integrals the log.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralLog2">
+            <summary>
+            Integrals the log2.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralLog1">
+            <summary>
+            Integrals the log1.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralCos">
+            <summary>
+            Integrals the cos.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralCos2">
+            <summary>
+            Integrals the cos2.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralCos1">
+            <summary>
+            Integrals the cos1.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralQuad">
+            <summary>
+            Integrals the quad.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralQuad2">
+            <summary>
+            Integrals the quad2.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.MainIntegralTests.IntegralQuad1">
+            <summary>
+            Integrals the quad1.
+            </summary>
+        </member>
+    </members>
+</doc>

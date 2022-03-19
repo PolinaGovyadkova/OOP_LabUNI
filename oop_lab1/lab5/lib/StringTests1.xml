@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringTests1</name>
+    </assembly>
+    <members>
+        <member name="T:String.Tests.NumberTests">
+            <summary>NumberTests</summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest1">
+            <summary>
+            Phones  number test1.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest2">
+            <summary>
+            Phones  number test2.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest3">
+            <summary>
+            Phones  number test3.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest4">
+            <summary>
+            Phones  number test4.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest5">
+            <summary>
+            Phones  number test5.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest6">
+            <summary>
+            Phones  number test6.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest7">
+            <summary>
+            Phones  number test7.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest8">
+            <summary>
+            Phones  number test8.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest9">
+            <summary>
+            Phones  number test9.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest10">
+            <summary>
+            Phones  number test10.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest11">
+            <summary>
+            Phones  number test11.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest12">
+            <summary>
+            Phones  number test12.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest13">
+            <summary>
+            Phones  number test13.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest14">
+            <summary>
+            Phones  number test14.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.PhoneNumberTest15">
+            <summary>
+            Phones number test15.
+            </summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.IsInfo1">
+            <summary>Determines whether this instance is a number.</summary>
+        </member>
+        <member name="M:String.Tests.NumberTests.IsInfo2">
+            <summary>Determines whether this instance is  a number.</summary>
+        </member>
+    </members>
+</doc>

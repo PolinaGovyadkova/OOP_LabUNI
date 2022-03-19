@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsFormsApp</name>
+    </assembly>
+    <members>
+        <member name="F:WindowsFormsApp.AddExercise.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.AddExercise.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApp.AddExercise.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApp.Edit">
+            <summary>
+            Edit 
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="F:WindowsFormsApp.Edit.mainForm">
+            <summary>
+            The main form
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.#ctor(WindowsFormsApp.MainForm)">
+            <summary>
+            Initializes a new instance of the <see cref="T:WindowsFormsApp.Edit"/> class.
+            </summary>
+            <param name="mainForm">The main form.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.Edit_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the Edit control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.type_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the type control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.dateTime_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the ValueChanged event of the dateTime control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.comboBox2_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBox2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:WindowsFormsApp.Edit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApp.Edit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApp.MainForm">
+            <summary>
+            MainForm 
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="F:WindowsFormsApp.MainForm.training">
+            <summary>
+            The training
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:WindowsFormsApp.MainForm"/> class.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.MainForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the MainForm control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.dataGridView1_CellContentClick_1(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the 1 event of the dataGridView1_CellContentClick control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button3 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button4 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.comboBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBox1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.dateTimePicker2_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the ValueChanged event of the dateTimePicker2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.dateTimePicker1_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the ValueChanged event of the dateTimePicker1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.dataGridView1_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellContentClick event of the dataGridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.NewTable">
+            <summary>
+            Creates new table.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.button6_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button6 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:WindowsFormsApp.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApp.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApp.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApp.Properties.Resources">
+            <summary>
+              Класс ресурсов со строгим типом для поиска локализованных строк и пр.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApp.Properties.Resources.ResourceManager">
+            <summary>
+              Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApp.Properties.Resources.Culture">
+            <summary>
+              Переопределяет свойство CurrentUICulture текущего потока для всех
+              подстановки ресурсов с помощью этого класса ресурсов со строгим типом.
+            </summary>
+        </member>
+    </members>
+</doc>

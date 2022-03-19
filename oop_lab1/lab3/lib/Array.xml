@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Array</name>
+    </assembly>
+    <members>
+        <member name="T:Array.OneDimensionalArray">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Array.OneDimensionalArray.array">
+            <summary>
+            The array
+            </summary>
+        </member>
+        <member name="F:Array.OneDimensionalArray.array_name">
+            <summary>
+            The array name
+            </summary>
+        </member>
+        <member name="M:Array.OneDimensionalArray.GetLength">
+            <summary>
+            Gets the length of the array.
+            </summary>
+            <value>
+            The length of the array.
+            </value>
+        </member>
+        <member name="P:Array.OneDimensionalArray.Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Double"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Double"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Array.OneDimensionalArray.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Array.OneDimensionalArray"/> class.
+            </summary>
+            <param name="array_name">Name of the array.</param>
+        </member>
+        <member name="M:Array.OneDimensionalArray.GetDimensionalArray(System.Int32)">
+            <summary>
+            Gets the dimensional array.
+            </summary>
+        </member>
+        <member name="M:Array.OneDimensionalArray.NegativElements">
+            <summary>
+            Negativ elements of the arrays A and C.
+            </summary>
+        </member>
+        <member name="M:Array.OneDimensionalArray.NegativElements(System.Double)">
+            <summary>Negativs the elements.</summary>
+            <param name="item">The item.</param>
+            <returns>
+              <br />
+            </returns>
+        </member>
+        <member name="M:Array.OneDimensionalArray.op_Multiply(Array.OneDimensionalArray,Array.OneDimensionalArray)">
+            <summary>
+            Implements the operator *.
+            </summary>
+            <param name="ArrayA">The array a.</param>
+            <param name="ArrayC">The array c.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:Array.OneDimensionalArray.ArrayAB">
+            <summary>Arrays for ab.</summary>
+            <returns>
+             New array[500]
+            </returns>
+        </member>
+    </members>
+</doc>

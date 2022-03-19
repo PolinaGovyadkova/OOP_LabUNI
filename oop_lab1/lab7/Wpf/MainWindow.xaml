@@ -1,0 +1,44 @@
+﻿<Window x:Class="Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="LightBlue">
+    <Grid>
+        <Button Content="Купить" Name="add_item" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,26,0,0" Height="30" Click="Button_Click" Background="LightSkyBlue" />
+        <Button Content="Общая сумма" Name="cost" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,96,0,0" Height="28" Click="Button_Click_1" Background="LightSkyBlue" />
+        <Button Content="Средняя стоимость" Name="discount" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,154,0,0" Height="28" Click="Button_Click_2" Background="LightSkyBlue" />
+        <Button Content="Покупки со скидками" Name="average_price" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,208,0,0" Height="29" Click="Button_Click_3" Background="LightSkyBlue" />
+        <ComboBox Name="List" HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" Margin="400,26,0,0" Height="30" SelectionChanged="ComboBox_SelectionChanged">
+            <TextBlock>Ботинки</TextBlock>
+            <TextBlock>Пальто</TextBlock>
+            <TextBlock>Шапка</TextBlock>
+            <TextBlock>Худи</TextBlock>
+            <TextBlock>Куртка</TextBlock>
+            <TextBlock>Джинсы</TextBlock>
+            <TextBlock>Рубашка</TextBlock>
+            <TextBlock>Шорты</TextBlock>
+            <TextBlock>Кроссовки</TextBlock>
+            <TextBlock>Топ</TextBlock>
+            <TextBlock>New Лонгслив</TextBlock>
+            <TextBlock>New Свитшот</TextBlock>
+            <TextBlock>New Кеды</TextBlock>
+        </ComboBox>
+        <DataGrid Name="Table" HorizontalAlignment="Left" Height="355" VerticalAlignment="Top" Width="339" Margin="30,26,0,0" SelectionChanged="DataGrid_SelectionChanged" Background="AliceBlue">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название"  Binding="{Binding Name}" Width="90" />
+                <DataGridTextColumn Header="Цена"  Binding="{Binding Cost}" Width="70" />
+                <DataGridTextColumn Header="Скидка"  Binding="{Binding Percent}" Width="70" />
+                <DataGridTextColumn Header="Цена со скидкой"  Binding="{Binding NewCost}" Width="120" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Количество покупок" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,269,0,0" Height="26" Click="Button_Click_4" Background="LightSkyBlue" RenderTransformOrigin="0.603,2.577" />
+        <Label Content="Подсчитать общую сумму -&gt;&#xD;&#xA; всех покупок " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,96,0,0" />
+        <Label Content="Подсчитать среднюю стоимость в -&gt;&#xD;&#xA;покупках каждого товара " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,154,0,0" />
+        <Label Content="Подсчитать общее количество -&gt;&#xD;&#xA;покупок со скидками " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,209,0,0" />
+        <Label Content="По каждому товару подсчитать -&gt;&#xD;&#xA;количество проданных единиц." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,269,0,0" />
+        <Button Content="Редактировать" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="636,312,0,0" Height="24" Background="LightSkyBlue" Click="Button_Click_5" />
+    </Grid>
+</Window>

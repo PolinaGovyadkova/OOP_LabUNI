@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Integral</name>
+    </assembly>
+    <members>
+        <member name="T:Integral.Function">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Integral.Function._x">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._x1">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._x2">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._lower_limit">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._upper_limit">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._a">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._b">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._c">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="F:Integral.Function._number">
+            <summary>
+            The x
+            </summary>
+        </member>
+        <member name="M:Integral.Function.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.Function"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.Function.MultiplicationForCos(System.Double,System.Double,System.Double)">
+            <summary>
+            Multiplications for cos.
+            </summary>
+            <param name="_numder">The numder.</param>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The product of the cosine function by the number</returns>
+        </member>
+        <member name="M:Integral.Function.MultiplicationForlQuad(System.Double,System.Double,System.Double)">
+            <summary>
+            Multiplications the forl quad.
+            </summary>
+            <param name="_numder">The numder.</param>
+            <param name="_lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The product of the quadratic function  function by the number</returns>
+        </member>
+        <member name="M:Integral.Function.MultiplicationForLog(System.Double,System.Double,System.Double)">
+            <summary>
+            Multiplications for log.
+            </summary>
+            <param name="_numder">The numder.</param>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The product of a logarithmic function by a number</returns>
+        </member>
+        <member name="M:Integral.Function.SumForCosAndLog(System.Double,System.Double)">
+            <summary>
+            Sums for cos and log.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The sum of the cosine and logarithm functions</returns>
+        </member>
+        <member name="M:Integral.Function.SumForCosAndQuad(System.Double,System.Double)">
+            <summary>
+            Sums for cos and quad.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The sum of the cosine and quadratic functions</returns>
+        </member>
+        <member name="M:Integral.Function.SumForLogAndQuad(System.Double,System.Double)">
+            <summary>
+            Sums for log and quad.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+            <returns>The sum of the logarithm and quadratic functions</returns>
+        </member>
+        <member name="T:Integral.IntegralCos">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralCos.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralCos"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralCos.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>
+            Returns a cos function
+            </returns>
+        </member>
+        <member name="T:Integral.IntegralLog">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralLog.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralLog"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralLog.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>
+            Returns a log function
+            </returns>
+        </member>
+        <member name="T:Integral.MainIntegral">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Integral.MainIntegral._lower_limit">
+            <summary>
+            The lower limit
+            </summary>
+        </member>
+        <member name="F:Integral.MainIntegral._upper_limit">
+            <summary>
+            The upper limit
+            </summary>
+        </member>
+        <member name="M:Integral.MainIntegral.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.MainIntegral"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.MainIntegral.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns> Returns a linear function</returns>
+        </member>
+        <member name="M:Integral.MainIntegral.Solve">
+            <summary>
+            Solves this instance.
+            </summary>
+            <returns>Returns the result of evaluating an integral</returns>
+        </member>
+        <member name="T:Integral.IntegralQuad">
+             <summary>
+            
+             </summary>
+             <seealso cref="T:Integral.MainIntegral" />
+        </member>
+        <member name="M:Integral.IntegralQuad.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Integral.IntegralQuad"/> class.
+            </summary>
+            <param name="lower_limit">The lower limit.</param>
+            <param name="upper_limit">The upper limit.</param>
+        </member>
+        <member name="M:Integral.IntegralQuad.Func(System.Double)">
+            <summary>
+            Functions the specified x.
+            </summary>
+            <param name="x">The x.</param>
+            <returns>Returns a quadratic function</returns>
+        </member>
+    </members>
+</doc>

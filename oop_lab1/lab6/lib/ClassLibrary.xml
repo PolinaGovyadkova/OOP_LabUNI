@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:FitnessCenter.ExerciseType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Fitness_yoga">
+            <summary>
+            The fitness yoga
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Stretching">
+            <summary>
+            The stretching
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Bodyflex">
+            <summary>
+            The bodyflex
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Fitball">
+            <summary>
+            The fitball
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Nordic_walking">
+            <summary>
+            The nordic walking
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Pilates">
+            <summary>
+            The pilates
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Callanetic">
+            <summary>
+            The callanetic
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Anaerobic_load">
+            <summary>
+            The anaerobic load
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Butterfly">
+            <summary>
+            The butterfly
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Burpee">
+            <summary>
+            The burpee
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Pancake">
+            <summary>
+            The pancake
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.ExerciseType.Gainer">
+            <summary>
+            The gainer
+            </summary>
+        </member>
+        <member name="T:FitnessCenter.Training">
+            <summary>
+            Training
+            </summary>
+        </member>
+        <member name="T:FitnessCenter.Training.Exercise">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.Exercise._data">
+            <summary>
+            The data
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.Exercise._end_data">
+            <summary>
+            The end data
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.Exercise._type_of_exercise">
+            <summary>
+            The type of exercise
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.Exercise._exercise_time">
+            <summary>
+            The exercise time
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.Exercise._number_of_exercise">
+            <summary>
+            The number of exercise
+            </summary>
+        </member>
+        <member name="M:FitnessCenter.Training.Exercise.#ctor(System.DateTime,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FitnessCenter.Training.Exercise"/> class.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="number_of_exercise">The number of exercise.</param>
+        </member>
+        <member name="P:FitnessCenter.Training.Exercise.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>
+            The data.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.Exercise.EndData">
+            <summary>
+            Gets or sets the end data.
+            </summary>
+            <value>
+            The end data.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.Exercise.TypeOfExercise">
+            <summary>
+            Gets or sets the type of exercise.
+            </summary>
+            <value>
+            The type of exercise.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.Exercise.NumberOfExercise">
+            <summary>
+            Gets or sets the number of exercise.
+            </summary>
+            <value>
+            The number of exercise.
+            </value>
+        </member>
+        <member name="F:FitnessCenter.Training._exercise_time">
+            <summary>
+            The exercise time
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training._exercise_array">
+            <summary>
+            The exercise array
+            </summary>
+        </member>
+        <member name="F:FitnessCenter.Training.index">
+            <summary>
+            The index
+            </summary>
+        </member>
+        <member name="P:FitnessCenter.Training.GetLenght">
+            <summary>
+            Gets the get lenght.
+            </summary>
+            <value>
+            The get lenght.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.GetData">
+            <summary>
+            Gets or sets the get data.
+            </summary>
+            <value>
+            The get data.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.GetEndData">
+            <summary>
+            Gets or sets the get end data.
+            </summary>
+            <value>
+            The get end data.
+            </value>
+        </member>
+        <member name="P:FitnessCenter.Training.GetTypeOfExercise">
+            <summary>
+            Gets or sets the get type of exercise.
+            </summary>
+            <value>
+            The get type of exercise.
+            </value>
+        </member>
+        <member name="M:FitnessCenter.Training.AllExercise(System.DateTime,System.DateTime)">
+            <summary>
+            Alls the exercise.
+            </summary>
+            <param name="low_date">The low date.</param>
+            <param name="high_date">The high date.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FitnessCenter.Training.PopularTypeOfExercise(System.DateTime,System.DateTime)">
+            <summary>
+            Populars the type of exercise.
+            </summary>
+            <param name="low_date">The low date.</param>
+            <param name="high_date">The high date.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FitnessCenter.Training.TotalExercise(System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            Totals the exercise.
+            </summary>
+            <param name="low_date">The low date.</param>
+            <param name="high_date">The high date.</param>
+            <param name="number_of_exercise">The number of exercise.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FitnessCenter.Training.AddExercise(System.DateTime,System.Int32)">
+            <summary>
+            Adds the exercise.
+            </summary>
+            <param name="new_data">The new data.</param>
+            <param name="number_of_exercise">The number of exercise.</param>
+        </member>
+        <member name="M:FitnessCenter.Training.EditExercise(System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Edits the exercise.
+            </summary>
+            <param name="new_data">The new data.</param>
+            <param name="number_of_exercise">The number of exercise.</param>
+            <param name="i">The i.</param>
+        </member>
+    </members>
+</doc>

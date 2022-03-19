@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntegralTests2</name>
+    </assembly>
+    <members>
+        <member name="T:Integral.Tests.IntegralTests">
+            <summary>
+            Tests
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.MultiplicationForCosTest1">
+            <summary>
+            Multiplications for cos test1.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.MultiplicationForLogTest2">
+            <summary>
+            Multiplications for log test2.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.MultiplicationForlQuadTest3">
+            <summary>
+            Multiplications the forl quad test3.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.SumForCosAndLogTest4">
+            <summary>
+            Sums for cos and log test4.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.SumForCosAndQuadTest5">
+            <summary>
+            Sums for cos and quad test5.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.SumForLogAndQuadTest6">
+            <summary>
+            Sums for log and quad test6.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.CosTest7">
+            <summary>
+            Cos the test7.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.LogTest8">
+            <summary>
+            Log the test8.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.QuadlTest9">
+            <summary>
+            Quadl the test9.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.CosTest10">
+            <summary>
+            Cos the test10.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.LogTest11">
+            <summary>
+            Log the test11.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.QuadTest12">
+            <summary>
+            Quad the test12.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.CosTest13">
+            <summary>
+            Cos the test13.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.SumForCosAndLogTest14">
+            <summary>
+            Sum for cos and log test14.
+            </summary>
+        </member>
+        <member name="M:Integral.Tests.IntegralTests.SumForCosAndQuadTest15">
+            <summary>
+            Sum for cos and quad test15.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InConsoleApplication</name>
+    </assembly>
+    <members>
+        <member name="T:InConsoleApplication.Program">
+            <summary>
+              <br />
+            </summary>
+        </member>
+        <member name="M:InConsoleApplication.Program.Main(System.String[])">
+            <summary>Defines the entry point of the application.</summary>
+            <param name="args">The arguments.</param>
+        </member>
+    </members>
+</doc>

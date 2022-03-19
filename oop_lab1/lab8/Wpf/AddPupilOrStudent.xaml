@@ -1,0 +1,33 @@
+﻿<Window x:Class="Wpf.AddPupilOrStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf"
+        mc:Ignorable="d"
+        Title="AddPupilorStudent" Height="450" Width="236.192">
+    <Grid Margin="10,0,3.4,0">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="104*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="105*" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBox Name="surname" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,52,0,0" TextChanged="surname_TextChanged" Grid.Row="1" />
+        <TextBox Name="data" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,106,0,0" TextChanged="data_TextChanged" Grid.Row="1" />
+        <TextBox Name="status" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,155,0,0" TextChanged="TextBox_TextChanged_1" Grid.Row="1" />
+        <TextBox Name="place" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,201,0,0" TextChanged="place_TextChanged" Grid.Row="1" />
+        <TextBox Name="array" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,255,0,0" Grid.Row="1" TextChanged="array_TextChanged" />
+        <TextBox Name="group" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="40,309,0,0" RenderTransformOrigin="0.868,0.627" Grid.Row="1" TextChanged="group_TextChanged" />
+        <Label Content="Группа/Класс" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="57,278,0,0" Grid.Row="1" Height="26" Width="83" />
+        <Label Content="Место учёбы" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="57,175,0,0" Grid.Row="1" Height="26" Width="100" />
+        <Label Content="Статус" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="71,129,0,0" Grid.Row="1" Height="26" Width="45" />
+        <Label Content="Фамилия" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="69,21,0,0" Grid.Row="1" Height="26" Width="59" />
+        <Label Content="Оценки" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="69,229,0,0" Grid.Row="1" Height="26" Width="71" />
+        <Button Content="Добавить" HorizontalAlignment="Left" Height="43" Margin="40,363,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click_2" Grid.Row="1" />
+        <Label Content="Дата" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="83,75,0,0" Grid.Row="1" Height="26" Width="45" />
+    </Grid>
+</Window>

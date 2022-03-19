@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductsTests</name>
+    </assembly>
+    <members>
+        <member name="T:Products.Tests.ListOfPurchasesTests">
+            <summary>
+            ListOfPurchasesTests
+            </summary>
+            <seealso cref="T:Products.ListOfPurchases" />
+        </member>
+        <member name="F:Products.Tests.ListOfPurchasesTests.purchases">
+            <summary>
+            The purchases
+            </summary>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.AllCostByType(System.String)">
+            <summary>
+            All cost by type.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.AllCostByTypeTest">
+            <summary>
+            All cost by type test.
+            </summary>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.AllCountByType(System.String)">
+            <summary>
+            All count by type.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.AllCountByTypeTest">
+            <summary>
+            All count by type test.
+            </summary>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.TotalCost">
+            <summary>
+            Total cost.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.TotalCostTest">
+            <summary>
+            Total cost test.
+            </summary>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.SubmittedUnits">
+            <summary>
+            Submitted units.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Products.Tests.ListOfPurchasesTests.SubmittedUnitsTest">
+            <summary>
+            Submitted units test.
+            </summary>
+        </member>
+        <member name="T:Products.Tests.PurchasesTests">
+            <summary>
+            PurchasesTests
+            </summary>
+        </member>
+        <member name="F:Products.Tests.PurchasesTests.purchases">
+            <summary>
+            The purchases
+            </summary>
+        </member>
+        <member name="M:Products.Tests.PurchasesTests.DiscountTest">
+            <summary>
+            Discounts for test.
+            </summary>
+        </member>
+        <member name="M:Products.Tests.PurchasesTests.DiscountTest1">
+            <summary>
+            Discounts for test1.
+            </summary>
+        </member>
+        <member name="M:Products.Tests.PurchasesTests.DiscountTest2">
+            <summary>
+            Discounts for test2.
+            </summary>
+        </member>
+    </members>
+</doc>

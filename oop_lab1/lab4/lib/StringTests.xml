@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringTests</name>
+    </assembly>
+    <members>
+        <member name="T:String.Tests.StringWithNumbersTests">
+            <summary>
+            StringWithNumbersTests
+            </summary>
+        </member>
+        <member name="F:String.Tests.StringWithNumbersTests.Text">
+            <summary>
+            The text
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest1">
+            <summary>
+            Characters search the test1.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest2">
+            <summary>
+            Characters search the test2.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest3">
+            <summary>
+            Characters search the test3.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest4">
+            <summary>
+            Characters search the test4.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest5">
+            <summary>
+            Characters search the test5.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest6">
+            <summary>
+            Characters search the test6.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.CharacterSearchTest7">
+            <summary>
+            Characters search the test7.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters1">
+            <summary>
+            Numbers of the letters1.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters2">
+            <summary>
+            Numbers of the letters2.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters3">
+            <summary>
+            Numbers of the letters3.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters4">
+            <summary>
+            Numbers of the letters4.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters5">
+            <summary>
+            Numbers of the letters5.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters6">
+            <summary>
+            Numbers of the letters6.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters7">
+            <summary>
+            Numbers of the letters7.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters8">
+            <summary>
+            Numbers of the letters8.
+            </summary>
+        </member>
+        <member name="M:String.Tests.StringWithNumbersTests.NumberOfLetters9">
+            <summary>
+            Numbers of the letters9.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:Products.ListOfPurchases">
+            <summary>
+            ListOfPurchases
+            </summary>
+        </member>
+        <member name="F:Products.ListOfPurchases.purchases">
+            <summary>
+            The purchases
+            </summary>
+        </member>
+        <member name="F:Products.ListOfPurchases.index">
+            <summary>
+            The index
+            </summary>
+        </member>
+        <member name="P:Products.ListOfPurchases.Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>
+            The length.
+            </value>
+        </member>
+        <member name="M:Products.ListOfPurchases.AllCostByType(System.String)">
+            <summary>
+            All cost by type.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Products.ListOfPurchases.AllCountByType(System.String)">
+            <summary>
+            All count by type.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Products.ListOfPurchases.TotalCost">
+            <summary>
+            Total cost.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Products.ListOfPurchases.SubmittedUnits">
+            <summary>
+            Submitted units.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Products.ListOfPurchases.Add(System.String,System.Double,System.Int32)">
+            <summary>
+            Add the product.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.NewProducts">
+            <summary>
+            NewProducts
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.NewProducts.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.NewProducts"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Hoodie">
+            <summary>
+            Hoodie
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Hoodie.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Hoodie"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Hat">
+            <summary>
+            Hat 
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Hat.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Hat"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Jeans">
+            <summary>
+            Jeans
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Jeans.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Jeans"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Boots">
+            <summary>
+            Boots
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Boots.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Boots"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Jacket">
+            <summary>
+            Jacket
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Jacket.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Jacket"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Coat">
+            <summary>
+            Coat
+            </summary>
+            <seealso cref="T:Products.Purchases" />
+        </member>
+        <member name="M:Products.Coat.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Coat"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="T:Products.Purchases">
+            <summary>
+            Purchases
+            </summary>
+        </member>
+        <member name="F:Products.Purchases._name">
+            <summary>
+            The name
+            </summary>
+        </member>
+        <member name="F:Products.Purchases._cost">
+            <summary>
+            The cost
+            </summary>
+        </member>
+        <member name="F:Products.Purchases._percent">
+            <summary>
+            The percent
+            </summary>
+        </member>
+        <member name="M:Products.Purchases.#ctor(System.String,System.Double,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Purchases"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+        </member>
+        <member name="M:Products.Purchases.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Products.Purchases"/> class.
+            </summary>
+        </member>
+        <member name="P:Products.Purchases.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:Products.Purchases.Cost">
+            <summary>
+            Gets or sets the cost.
+            </summary>
+            <value>
+            The cost.
+            </value>
+        </member>
+        <member name="P:Products.Purchases.Percent">
+            <summary>
+            Gets or sets the percent.
+            </summary>
+            <value>
+            The percent.
+            </value>
+        </member>
+        <member name="M:Products.Purchases.Discount(System.Double,System.Int32)">
+            <summary>
+            Calculates a discount for a product.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="cost">The cost.</param>
+            <param name="percent">The percent.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Products.Purchases.NewCost">
+            <summary>
+            Creates new cost.
+            </summary>
+            <value>
+            The new cost.
+            </value>
+        </member>
+    </members>
+</doc>

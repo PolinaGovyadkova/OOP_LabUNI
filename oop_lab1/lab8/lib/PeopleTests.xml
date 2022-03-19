@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeopleTests</name>
+    </assembly>
+    <members>
+        <member name="T:Wpf.Tests.MainWindowTests">
+            <summary>
+            MainWindowTests
+            </summary>
+        </member>
+        <member name="M:Wpf.Tests.MainWindowTests.UpdateForStudentsTest">
+            <summary>
+            Update for students test.
+            </summary>
+        </member>
+        <member name="M:Wpf.Tests.MainWindowTests.UpdateForPupilsTest">
+            <summary>
+            Update for pupils test.
+            </summary>
+        </member>
+        <member name="M:Wpf.Tests.MainWindowTests.UpdateBrushTest">
+            <summary>
+            Updates the brush test.
+            </summary>
+        </member>
+        <member name="M:Wpf.Tests.MainWindowTests.UpdateErrorTest">
+            <summary>
+            Update the error test.
+            </summary>
+        </member>
+        <member name="T:People.Tests.StudentTests">
+            <summary>
+            StudentTests
+            </summary>
+        </member>
+        <member name="M:People.Tests.StudentTests.InfoTest">
+            <summary>
+            Informations the test.
+            </summary>
+        </member>
+        <member name="M:People.Tests.StudentTests.InfoTest1">
+            <summary>
+            Informations the test1.
+            </summary>
+        </member>
+        <member name="M:People.Tests.StudentTests.AddCharsThrowsException">
+            <summary>
+            Adds the chars throws exception.
+            </summary>
+        </member>
+    </members>
+</doc>

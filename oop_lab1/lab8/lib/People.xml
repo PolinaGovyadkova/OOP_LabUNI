@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>People</name>
+    </assembly>
+    <members>
+        <member name="T:People.ListOfPeople">
+            <summary>
+            List of people
+            </summary>
+        </member>
+        <member name="F:People.ListOfPeople.person">
+            <summary>
+            The person
+            </summary>
+        </member>
+        <member name="F:People.ListOfPeople.student">
+            <summary>
+            The student
+            </summary>
+        </member>
+        <member name="F:People.ListOfPeople.pupils">
+            <summary>
+            The pupils
+            </summary>
+        </member>
+        <member name="M:People.ListOfPeople.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:People.ListOfPeople"/> class.
+            </summary>
+        </member>
+        <member name="M:People.ListOfPeople.Add">
+            <summary>
+            Add new persons.
+            </summary>
+        </member>
+        <member name="M:People.ListOfPeople.Sort">
+            <summary>
+            Sort persons.
+            </summary>
+        </member>
+        <member name="T:People.Person">
+            <summary>
+            Person
+            </summary>
+        </member>
+        <member name="P:People.Person.Surname">
+            <summary>
+            Gets or sets the surname.
+            </summary>
+            <value>
+            The surname.
+            </value>
+        </member>
+        <member name="P:People.Person.Date">
+            <summary>
+            Gets or sets the date.
+            </summary>
+            <value>
+            The date.
+            </value>
+        </member>
+        <member name="P:People.Person.Status">
+            <summary>
+            Gets or sets the status.
+            </summary>
+            <value>
+            The status.
+            </value>
+        </member>
+        <member name="M:People.Person.Info">
+            <summary>
+            Informations this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Person.Display">
+            <summary>
+            Displays this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:People.Pupils">
+            <summary>
+            Pupils
+            </summary>
+            <seealso cref="T:People.Student" />
+            <seealso cref="!:System.IComparable&lt;People.Student&gt;" />
+        </member>
+        <member name="M:People.Pupils.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:People.Pupils"/> class.
+            </summary>
+            <param name="surname">The surname.</param>
+            <param name="date">The date.</param>
+            <param name="status">The status.</param>
+            <param name="plase">The plase.</param>
+            <param name="group">The group.</param>
+            <param name="salary">The salary.</param>
+        </member>
+        <member name="M:People.Pupils.Display">
+            <summary>
+            Displays this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Pupils.CompareTo(People.Pupils)">
+            <summary>
+            Compares to.
+            </summary>
+            <param name="pupils">The pupils.</param>
+            <returns></returns>
+        </member>
+        <member name="T:People.Student">
+            <summary>
+            Student
+            </summary>
+            <seealso cref="T:People.Person" />
+            <seealso cref="!:System.IComparable&lt;People.Student&gt;" />
+        </member>
+        <member name="P:People.Student.MarksArray">
+            <summary>
+            Gets or sets the marks array.
+            </summary>
+            <value>
+            The marks array.
+            </value>
+        </member>
+        <member name="P:People.Student.EducationalInstitution">
+            <summary>
+            Gets or sets the educational institution.
+            </summary>
+            <value>
+            The educational institution.
+            </value>
+        </member>
+        <member name="P:People.Student.Group">
+            <summary>
+            Gets or sets the group.
+            </summary>
+            <value>
+            The group.
+            </value>
+        </member>
+        <member name="M:People.Student.Info">
+            <summary>
+            Informations this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Student.Display">
+            <summary>
+            Displays this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Student.CompareTo(People.Student)">
+            <summary>
+            Compares to.
+            </summary>
+            <param name="student">The student.</param>
+            <returns></returns>
+        </member>
+        <member name="T:People.Students">
+            <summary>
+            Students
+            </summary>
+            <seealso cref="T:People.Student" />
+            <seealso cref="!:System.IComparable&lt;People.Student&gt;" />
+        </member>
+        <member name="M:People.Students.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:People.Students"/> class.
+            </summary>
+            <param name="surname">The surname.</param>
+            <param name="date">The date.</param>
+            <param name="status">The status.</param>
+            <param name="plase">The plase.</param>
+            <param name="group">The group.</param>
+            <param name="salary">The salary.</param>
+        </member>
+        <member name="M:People.Students.Display">
+            <summary>
+            Displays this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Students.CompareTo(People.Students)">
+            <summary>
+            Compares to.
+            </summary>
+            <param name="student">The student.</param>
+            <returns></returns>
+        </member>
+        <member name="T:People.Working">
+            <summary>
+            Working
+            </summary>
+            <seealso cref="T:People.Person" />
+        </member>
+        <member name="P:People.Working.PlaceOfWork">
+            <summary>
+            Gets or sets the place of work.
+            </summary>
+            <value>
+            The place of work.
+            </value>
+        </member>
+        <member name="P:People.Working.Position">
+            <summary>
+            Gets or sets the position.
+            </summary>
+            <value>
+            The position.
+            </value>
+        </member>
+        <member name="P:People.Working.Salary">
+            <summary>
+            Gets or sets the salary.
+            </summary>
+            <value>
+            The salary.
+            </value>
+        </member>
+        <member name="M:People.Working.#ctor(System.String,System.Int32,System.String,System.String,System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:People.Working"/> class.
+            </summary>
+            <param name="surname">The surname.</param>
+            <param name="date">The date.</param>
+            <param name="status">The status.</param>
+            <param name="plase">The plase.</param>
+            <param name="salary">The salary.</param>
+        </member>
+        <member name="M:People.Working.Info">
+            <summary>
+            Informations this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:People.Working.Display">
+            <summary>
+            Displays this instance.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

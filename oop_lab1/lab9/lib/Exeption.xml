@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Exeption</name>
+    </assembly>
+    <members>
+        <member name="T:Exeption.IntegralExeption">
+            <summary>
+            IntegralExeption
+            </summary>
+            <seealso cref="T:System.Exception" />
+        </member>
+        <member name="M:Exeption.IntegralExeption.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Exeption.IntegralExeption"/> class.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+    </members>
+</doc>

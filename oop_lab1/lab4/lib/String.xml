@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>String</name>
+    </assembly>
+    <members>
+        <member name="T:String.StringWithNumbers">
+            <summary>
+            StringWithNumbers
+            </summary>
+        </member>
+        <member name="F:String.StringWithNumbers._text">
+            <summary>
+            The text
+            </summary>
+        </member>
+        <member name="M:String.StringWithNumbers.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:String.StringWithNumbers"/> class.
+            </summary>
+            <param name="text">The text.</param>
+        </member>
+        <member name="M:String.StringWithNumbers.CharacterSearch(System.String)">
+            <summary>
+            Search for characters in a string.
+            </summary>
+            <param name="text">The text.</param>
+            <returns>Arithmetic expressions</returns>
+        </member>
+        <member name="M:String.StringWithNumbers.NumberOfLetters(System.String)">
+            <summary>
+            Numbers of the letters.
+            </summary>
+            <param name="text">The text.</param>
+            <returns>Numbers of the letters in rhe string</returns>
+        </member>
+    </members>
+</doc>
